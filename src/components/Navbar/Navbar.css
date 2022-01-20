@@ -1,0 +1,48 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 144px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 2rem 3rem;
+    font-family: Nunito;
+    color: #273043;
+}
+
+.navLink {
+    text-decoration: none;
+}
+
+.Logo {
+    height: 42px;
+    width: 182.5px;
+}
+
+.NavItems {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navLink {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.devNav {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.devNav button {
+    letter-spacing: 1.25px;
+    padding: 0.1rem 0.5rem;
+    line-height: 15px;
+}
+

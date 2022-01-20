@@ -1,0 +1,81 @@
+h5 {
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: 600;
+}
+p {
+    font-family: Nunito;
+    font-weight: 400;
+}
+
+.landing {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.landingContent {
+    max-width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
+.landingContent h3 {
+    width: 45%;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 40px;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.landingContent p {
+    width: 467px;
+    height: 74px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.15px
+}
+
+
+.landingImage {
+    height: auto;
+    width: auto;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landingImage img:nth-child(1) {
+    height: 42px;
+    width: 22px;
+    margin-left: 4%;
+    margin-top: 8%;
+}
+
+.landingImage img:nth-child(2) {
+    width: 90%;
+    height: 28rem;
+}
+
+
+.landingSection {
+    display: flex;
+    margin: 4rem 2rem;
+}
+
+
+
+
