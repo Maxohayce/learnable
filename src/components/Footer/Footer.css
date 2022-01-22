@@ -1,3 +1,84 @@
 .Footer {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    /* background-color: chocolate; */
 }
+
+a {
+    color: #273043;
+}
+
+.Footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Nunito;
+}
+
+
+.Footer-links {
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    width: 22%;
+    justify-content: space-between;
+}
+
+.Touch {
+    height: 15rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Devstudio {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.Devstudio img {
+    height: auto;
+    width: max-content;
+}
+
+.Devstudio > span {
+    height: auto;
+    display: flex;
+    margin:0rem 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Devstudio p{
+    margin-top: 11%;
+}
+
+.Footer-bottom {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.Footer-bottom span{
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+    margin: 0.5rem 0rem;
+}
+
+.social {
+    height: 30px;
+    width: 22px;
+    color: #273043;
+}
+

@@ -1,0 +1,17 @@
+.Feature {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25%;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: white
+}
+
+.Feature a {
+    color: aquamarine;
+}
+
+.Feature h4 {
+    font-size: 1.8rem;
+}

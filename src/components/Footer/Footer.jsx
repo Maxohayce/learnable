@@ -3,55 +3,56 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faFacebook, faTwitter, faInstagram, faLinkedin, faVimeo } from "@fortawesome/free-brands-svg-icons";
 
+import "./Footer.css";
 import footer from "../../Images/footer.png";
 
     const icons = [
         {
             title: faTwitter,
             link: "",
-            cName: "twitter-social"
+            cName: "twitter social"
         },
         {
             title: faFacebook,
             link: "",
-            cName: "facebook-social"
+            cName: "facebook social"
         },
         {
             title: faLinkedin,
             link: "",
-            cName: "linkedin-social"
+            cName: "linkedin social"
         },
         {
             title: faInstagram,
             link: "",
-            cName: "instagram-social"
+            cName: "instagram social"
         },
         {
             title: faYoutube,
             link: "",
-            cName: "youtube"
+            cName: "youtube social"
         },
         {
             title: faVimeo,
             link: "",
-            cName: "vimeo-social"
+            cName: "vimeo social"
         }
     ]
 const Footer = () => {
     return (
         <section className="Footer">
-            <div>
-                <div>
+            <div className="Footer-top">
+                <div className="Footer-links">
                     <Link to="/developer">BUILD SOFTWARE</Link>
                     <Link to="/designer">DESIGN DIFFERENT</Link>
                     <Link to="/apply">APPLY YOUR KNOWLEDGE</Link>
                     <Link to="/faq">FAQ</Link>
                 </div>
-                <div>
+                <div className="Touch">
                     <p>Our Local Campus center: Kilometer 7, Enugu/Port Harcourt, Expressway, Centenary City, Enugu. Nigeria</p>
                     <Link to="/contact">GET IN TOUCH</Link>
                 </div>
-                <div>
+                <div className="Devstudio">
                     <img src={footer} alt="footer"/>
                     <span>
                         <p>Learnable is proud to be a collaborative effort of all the arms of our product team</p>
@@ -59,7 +60,7 @@ const Footer = () => {
                     </span>
                 </div>
             </div>
-            <div>
+            <div className="Footer-bottom">
                 <span>
                     {icons.map((item, i) => {
                         const { link, cName, title } = item;

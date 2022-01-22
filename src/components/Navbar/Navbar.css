@@ -32,17 +32,22 @@
 .navLink {
     text-decoration: none;
     text-transform: uppercase;
+    color: #273043;
 }
 
 .devNav {
     display: flex;
     width: 25%;
     justify-content: space-around;
+    align-items: center;
 }
 
 .devNav button {
     letter-spacing: 1.25px;
     padding: 0.1rem 0.5rem;
     line-height: 15px;
+    background-color: transparent;
+    border-color: #273043;
+    border-radius: 4px;
 }
 

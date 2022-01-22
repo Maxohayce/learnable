@@ -11,21 +11,13 @@ import ignite from "../../Images/ignite.jpg";
 import codeVille from "../../Images/codeville.jpg";
 import Pink from "../../Images/pink.jpg";
 import team from "../../Images/team.jpg";
-import previous from "../../Images/previous.png";
 import Content from "../../components/Landing/Content";
-
+import { Subscribe } from "../../components";
 
 
 
 
 const Home = () => {
-    const content = [
-        {
-            title: "Learnable",
-            link: "",
-            content: "Learn more"
-        }
-    ]
     return (
         <div>
             <section className="landing">
@@ -66,43 +58,39 @@ const Home = () => {
                 </div>
             </section>
             <section className="Others">
-                <div className="other-left">
-                    <span>
-                        <img src={ignite} alt="Genesys-Ignite" />
-                        <Link to="ignite">Genesys Ignite</Link>
-                    </span>
-                    <div>
-                        <span>
-                            <img src={codeVille} alt="CodeVille" />
-                            <Link to="CodeVille">Genesys Ignite</Link>
+                <div className="otherSection">
+                    <div className="other-left">
+                        <span className="other-left-top">
+                            <img src={ignite} alt="Genesys-Ignite" />
+                            <Link to="ignite"><h5>Genesys Ignite</h5></Link>
                         </span>
-                        <span>
-                            <img  src={Pink} alt="pink" />
-                            <Link to="Pink">Genesys Ignite</Link>
-                        </span>
+                        <div className="other-left-bottom">
+                            <span>
+                                <img src={codeVille} alt="CodeVille" />
+                                <Link to="CodeVille"><h4>CodeVille</h4></Link>
+                            </span>
+                            <span>
+                                <img  src={Pink} alt="pink" />
+                                <Link to="Pink"><h4>Pink summer of code</h4></Link>
+                            </span>
+                        </div>
+                    </div>
+                    <div className="other-right">
+                        <h2>Other things we do</h2>
                     </div>
                 </div>
-                <h5 className="other-right">Other things we do</h5>
             </section>
             <section className="Team">
+                <div className="landingSection">
                 <img  src={team} alt="team" />
-                <div>
-                    <h3>The best team in the world</h3>
-                    <p>We work with the most amazing people our industry has to offer. They are really passionate about making a difference</p>
-                    <Link to="/team">SEE TEAM</Link>
+                <Content title="The best team in the world"
+                    content="We work with the most amazing people our industry has to offer. They are really passionate about making a difference"
+                    link="See Team"
+                    type="white"
+                />
                 </div>
             </section>
-            <section>
-                <img  src={previous} alt={previous} />
-                <h3>Stay up to date on what we are doing and new learning opportunities</h3>
-                <div>
-                    <span>
-                        <input  placeholder="YOUR EMAIL"></input>
-                        <p>View Privacy Policy</p>
-                    </span>
-                    <button>SUBSCRIBE</button>
-                </div>
-            </section>
+            <Subscribe  type="greenBg" />
         </div>
     )
 };

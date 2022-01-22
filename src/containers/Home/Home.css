@@ -1,15 +1,13 @@
-h5 {
+h5, h3, h2,h4 {
     font-family: Roboto;
     font-weight: 900;
+    color: #273043;
 }
 
-h3 {
-    font-family: Roboto;
-    font-weight: 600;
-}
 p {
     font-family: Nunito;
     font-weight: 400;
+    color: #273043;
 }
 
 .landing {
@@ -31,8 +29,6 @@ p {
 
 .landingContent h3 {
     width: 45%;
-    font-family: Roboto;
-    font-weight: 900;
     font-size: 40px;
     display: flex;
     text-transform: capitalize;
@@ -77,5 +73,178 @@ p {
 }
 
 
+.Agora {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Others {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #EEEEEE;
+}
+
+.Others img {
+    max-width: auto;
+    max-height: 20rem;
+}
+
+.otherSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.other-left-top {
+    display: flex;
+    align-items: center;
+}
+
+.other-left {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.other-left > img {
+    width: 100%;
+    height: auto;
+}
+
+.other-left-top img{
+    margin-right: 2rem;
+}
+
+.other-left-bottom img{
+    margin-bottom: 2rem;
+}
+
+.other-left-bottom {
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.other-left-bottom span {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.other-left span{
+    margin: 1rem;
+}
+
+/* .other-left img {
+
+} */
+
+.white {
+    color: #EEEEEE;
+}
+
+.other-right {
+    width: 52%;
+}
+
+.other-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.other-right h2 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 3.4rem;
+    width: 25rem;
+
+}
+
+.Team {
+    background-color: #17255A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Subscribe {
+
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 18rem;
+    
+}
+
+.Subscribe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EAC435;
+    width: 90%;
+    height: 18rem;
+}
+
+
+.Subscribe-left {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 110.19%;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+    width: 37%;
+    margin-left: 7%;
+}
+
+
+.Subscribe-right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Subscribe-right span {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Subscribe-right button, img{
+    height: fit-content;
+}
+
+.Subscribe-right input {
+    width: 15rem;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #273043;
+    
+}
+
+.Subscribe-right button {
+    align-self: center;
+    background: transparent;
+    border-color: #273043;
+    padding: 0.3rem;
+}
+
+.greenBg {
+    background-color: #03CEA4;
+}
 
 

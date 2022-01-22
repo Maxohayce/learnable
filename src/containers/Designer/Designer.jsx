@@ -1,10 +1,14 @@
 import React from "react";
+import { Header, Layout } from "../../components";
 
 
 const Designer = () => {
     return (
         <div>
-            Designer
+            <Header />
+            <Layout>
+                
+            </Layout>
         </div>
     )
 };

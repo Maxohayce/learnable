@@ -1,0 +1,64 @@
+.Apply {
+    display: flex;
+    flex-direction: column;
+    color: #17255A;
+    position: relative;
+}
+
+.Apply-top {
+    display: flex;
+    height: 45rem;
+    justify-content: space-around;
+    /* background-color: green; */
+    align-items: center;
+}
+
+.Apply-top span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40rem;
+    width: 45%;
+    padding: 4rem;
+    /* background-color: blue; */
+}
+
+.Apply-top p {
+    width: 90%;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 5rem;
+}
+
+.Apply-top img {
+    margin-top: -15%;
+    height: 338px;
+    width: 38%;
+    
+}
+
+.Apply-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Apply-bottom img {
+    margin-bottom: 2rem;
+}
+
+.Apply-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35rem;
+    height: 15rem;
+    padding: 0rem 3rem;
+    margin: 2rem
+}
+
+.Apply-content h3 {
+    font-size: 2rem;
+}

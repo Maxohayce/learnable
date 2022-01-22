@@ -1,0 +1,23 @@
+.Header {
+    background-color: #17255A;
+    display: flex;
+    justify-content: center;
+}
+
+.HeaderItems {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    color: #EEEEEE;
+    height: 48px;
+    margin: 0rem 4rem;
+}
+
+.HeaderLink {
+    text-decoration: underline;
+    color: #EEEEEE;
+    font-family: Nunito;
+    text-transform: uppercase;
+}

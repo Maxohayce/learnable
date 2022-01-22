@@ -1,0 +1,40 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5rem;
+}
+
+.faq-top h1{
+    font-family: Roboto;
+    align-self: center;
+    font-size: 5rem;
+    color: #17255A;
+}
+
+.faq-bottom {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4rem 0rem;
+    color: #17255A;
+    font-family: Roboto;
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+.faq-bottom li {
+    text-decoration: underline;
+}
+
+.faq-bottom hr {
+    margin-top: 8%;
+} 

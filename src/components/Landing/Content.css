@@ -16,14 +16,6 @@
     letter-spacing: 0.025em;
     text-align: left;
 }
-.Agora {
-    background-color: #EEEEEE;
-    top: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 .landingSectionContent p:nth-child(1) {
     color: #03CEA4;
