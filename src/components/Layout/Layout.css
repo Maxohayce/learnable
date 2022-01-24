@@ -1,0 +1,87 @@
+.Layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 2rem;
+    color: #17255A;
+}
+
+.Layout-top {
+    display: flex;
+    height: 45rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2rem 0rem;
+}
+
+.Layout-top >div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    justify-content: space-evenly;
+
+}
+
+.Layout-top div >h1 {
+    width: 60%;
+}
+
+.Layout-top div >p {
+}
+
+.Layout-top img {
+    border-radius: 50%;
+    align-self: flex-start;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.Layout h3 {
+    align-self: flex-start;
+    margin-left: 5%;
+    font-size: 3.6rem;
+    width: 50%;
+    margin: 4rem;
+}
+
+.Layout-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Layout-bottom img {
+    width: 80%;
+    height: auto;
+}
+
+
+.Expectations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35rem;
+    max-width: 40%;
+    margin: 4rem 0rem;
+}
+
+.Expectations h5 {
+    font-family: Roboto;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.orangeText {
+    color: #F5772F;
+}
+
+.greenText {
+    color: #03CEA4;
+}
+
+.orangeBg {
+    background-color: #F5772F;
+}
+

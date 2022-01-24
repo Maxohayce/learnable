@@ -82,4 +82,5 @@
     justify-content: space-around;
     background-color: cyan;
     width: 100%;
+    flex-wrap: wrap;
 }

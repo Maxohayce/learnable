@@ -12,7 +12,7 @@ import journal4 from "../../Images/journal4.png";
 
 
 const features = [
-    journal1, journal2, journal3, journal4
+    journal1, journal2, journal3, journal4, journal1, journal2, journal3, journal4
 ]
 
 const Journal = () => {

@@ -2,9 +2,10 @@ import React from "react";
 import "./Layout.css";
 
 import Avatar from "../../Images/Avatar.png";
+import { Subscribe } from "..";
 
 
-const Layout = ({quote, header, headerText, picture}) => {
+const Layout = ({quote, header, headerText, picture, color, background}) => {
     return(
         <div className="Layout">
             <section className="Layout-top">
@@ -12,11 +13,11 @@ const Layout = ({quote, header, headerText, picture}) => {
                     <h1>{header}</h1>
                     <p>{headerText}</p>
                 </div>
-                <img src={Avatar} alt="avatar" />
+                <img className={background} src={Avatar} alt="avatar" />
             </section>
-            <h3>{quote}</h3>
+            <h3 className={color}>{quote}</h3>
             <section className="Layout-bottom">
-                <img src={picture}/>
+                <img src={picture} alt="expectations"/>
                 <div className="Expectations">
                     <h5>We expect you to</h5>
                     <p>Play nice with other people.</p>
@@ -27,6 +28,7 @@ const Layout = ({quote, header, headerText, picture}) => {
                     <p>Appreciate good design. You want to make something that doesn't just work flawlessly but looks amazing.</p>
                 </div>
             </section>
+            <Subscribe />
         </div>
     );
 }
