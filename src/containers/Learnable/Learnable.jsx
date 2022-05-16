@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Circle, DesCards, DevCards, Header, Linkcontent, Onecontent, Twocontent } from "../../components";
+import { Circle, DesCards, DevCards, Header, Linkcontent, Onecontent, Twocontent } from "../../components";
 import Count from "../../components/Layout/SPcount";
 
 
@@ -13,7 +13,7 @@ import Avatar from "../../Images/Avatar.png";
 import unUsual from "../../Images/unusual.png";
 import eligible from "../../Images/eligible.png";
 import culture from "../../Images/culture.png";
-import apply from "../../Images/learnapply.png";
+// import apply from "../../Images/learnapply.png";
 
 
 
