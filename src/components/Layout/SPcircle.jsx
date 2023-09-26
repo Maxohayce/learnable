@@ -1,11 +1,11 @@
 import React from "react";
 import "./Layout.css";
 
-const circle = ({ header }) => {
+const circle = ({ header, background, text }) => {
     return(
-        <div>
-            <h5>{header}</h5>
-            <p>What to expect</p>
+        <div className={`circle ${background}`}>
+            <h5 className={text}>{header}</h5>
+            <p className={text}>What to expect</p>
         </div>
     );
 }

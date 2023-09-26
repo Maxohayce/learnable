@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 import Logo from "../../Images/GenesysLogo.png";
-
 
 const Menu = [
     
@@ -35,6 +36,22 @@ const Menu = [
 ]
 
 const Navbar = () => {
+    const [navBar, setNavBar] = useState(false);
+
+
+
+    const handleToggle = () => {
+        if(navBar === false) {
+            setNavBar(true)
+        } else {
+            setNavBar(false)
+        }
+    }
+
+    const closeMenu = () => {
+        setNavBar(false)
+    }
+
     return (
         <div className="Nav">
             <Link to="/"><img src={Logo} alt="genesysLogo" className="Logo" /></Link>
@@ -43,7 +60,7 @@ const Navbar = () => {
                     const { id, path, title} = item;
                     return (
                         <li key={id} >
-                            <Link className="navLink" to={path}>
+                            <Link onClick={() => closeMenu()} className="navLink" to={path}>
                                 {title}
                             </Link>
                         </li>
@@ -54,8 +71,10 @@ const Navbar = () => {
                 <p>build a product with</p>
                 <Link to="/devstudio"><button>DEVSTUDIO</button></Link>
             </div>
+            <button className="hamburger" onClick={() => handleToggle()}><FontAwesomeIcon icon={navBar ? faXmark : faBars} /></button>
         </div>
     )
 };
+
 
 export default Navbar;

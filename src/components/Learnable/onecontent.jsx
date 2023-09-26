@@ -1,8 +1,10 @@
 import React from "react";
 
+import "./content.css";
+
 const Onecontent = ({ title, content }) => {
     return(
-        <div>
+        <div className="One-content">
             <h4>{title}</h4>
             <p>{content}</p>
         </div>

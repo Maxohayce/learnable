@@ -1,6 +1,7 @@
 import React from "react";
 import previous from "../../Images/previous.png";
 
+import "../../containers/Home/Home.css"
 
   const Subscribe = ({type}) => {
     return(
@@ -9,7 +10,6 @@ import previous from "../../Images/previous.png";
             <img  src={previous} alt={previous} />
             <div className={`Subscribe-container ${type}`}>
                 <div className="Subscribe-left">
-                {/* <img  src={previous} alt={previous} /> */}
                 <h4>Stay up to date on what we are doing and new learning opportunities</h4>
                 </div>
                 <div className="Subscribe-right">

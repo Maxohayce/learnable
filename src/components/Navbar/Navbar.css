@@ -50,4 +50,41 @@
     border-color: #273043;
     border-radius: 4px;
 }
+.hamburger {
+    display: none;
+}
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+    .Nav {
+        height: 60px;
+    }
+
+
+    .Logo {
+        height: 36px;
+        width: 156px;
+        margin-left: -40%;
+    }
+    .NavItems {
+        flex-direction: column;
+        display: none;
+    }
+
+    .devNav {
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block;
+        margin-right: -20%;
+        font-size: 1.5rem;
+        line-height: center;
+        background-color: #fff;
+        border: none;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
+}

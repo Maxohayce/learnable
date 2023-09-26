@@ -62,16 +62,16 @@ const Home = () => {
                     <div className="other-left">
                         <span className="other-left-top">
                             <img src={ignite} alt="Genesys-Ignite" />
-                            <Link to="ignite"><h5>Genesys Ignite</h5></Link>
+                            <Link to="/ignite"><h5>Genesys Ignite</h5></Link>
                         </span>
                         <div className="other-left-bottom">
                             <span>
                                 <img src={codeVille} alt="CodeVille" />
-                                <Link to="CodeVille"><h4>CodeVille</h4></Link>
+                                <Link to="/CodeVille"><h4>CodeVille</h4></Link>
                             </span>
                             <span>
                                 <img  src={Pink} alt="pink" />
-                                <Link to="Pink"><h4>Pink summer of code</h4></Link>
+                                <Link to="/Pink"><h4>Pink summer of code</h4></Link>
                             </span>
                         </div>
                     </div>
@@ -83,15 +83,15 @@ const Home = () => {
             <section className="Team">
                 <div className="landingSection">
                 <img  src={team} alt="team" />
-                <Content title="The best team in the world"
-                    content="We work with the most amazing people our industry has to offer. They are really passionate about making a difference"
-                    link="See Team"
-                    type="white"
-                />
+                <div className="TeamContent">
+                    <h3 >The best team in the world</h3>
+                    <p >We work with the most amazing people our industry has to offer. They are really passionate about making a difference</p>
+                    <Link to="/learnable"><p>See Team</p></Link>
+                </div>
                 </div>
             </section>
             <Subscribe  type="greenBg" />
-        </div>
+        </div> 
     )
 };
 

@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "../Card/Card";
 
+import "./Devcards.css";
+
 
 
 const devcards = [
@@ -22,7 +24,7 @@ const devcards = [
     {
         title: "Building APIs with NodeJs",
         textColor: "defaultText",
-        backColor: "ApiBg",
+        backColor: "apiBg",
     },
     {
         title: "Managing Data with mongoDB",
@@ -41,7 +43,7 @@ const devcards = [
 
 const DevCards = () => {
     return(
-        <div>
+        <div className="cards">
             {devcards.map((item) => {
                 return(
                         <Card

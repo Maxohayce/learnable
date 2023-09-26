@@ -1,0 +1,6 @@
+.experts {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    flex-wrap: wrap;
+}

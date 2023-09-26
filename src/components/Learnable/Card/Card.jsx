@@ -1,10 +1,11 @@
 import React from "react";
+import "./Card.css"
 
 
-const Card = ({cName, title, key}) => {
+const Card = ({background, title, key, text}) => {
     return(
-        <div key={key} className={cName}>
-            <h4>{title}</h4>
+        <div key={key} className={`card ${background}`}>
+            <h4 className={text}>{title}</h4>
         </div>
     );
 }

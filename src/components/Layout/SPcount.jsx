@@ -1,4 +1,3 @@
-import { counter } from "@fortawesome/fontawesome-svg-core";
 import React from "react";
 
 const Count = ({number, title}) => {

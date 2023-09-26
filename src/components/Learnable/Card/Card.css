@@ -1,0 +1,36 @@
+.card {
+    padding: 8px;
+    width: 40%;
+    height: 15rem;
+}
+
+.card h4 {
+    font-size: 1.9rem;
+    margin-left: 2%;
+    color: #EEEEEE;
+}
+
+.firstBg {
+    background-color: #17255A;
+}
+
+.whiteText {
+    color: #EEEEEE;
+}
+.yellowBg {
+    background-color: #EAC435;
+}
+
+.ashBg {
+    background-color: #273043;
+}
+
+.redBg {
+    background-color: #E13F29;
+}
+.apiBg {
+    background-color: #2D1E2F;
+}
+
+
+

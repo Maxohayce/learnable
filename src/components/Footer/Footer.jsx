@@ -52,7 +52,7 @@ const Footer = () => {
                     <p>Our Local Campus center: Kilometer 7, Enugu/Port Harcourt, Expressway, Centenary City, Enugu. Nigeria</p>
                     <Link to="/contact">GET IN TOUCH</Link>
                 </div>
-                <div className="Devstudio">
+                <div className="DevStudio">
                     <img src={footer} alt="footer"/>
                     <span>
                         <p>Learnable is proud to be a collaborative effort of all the arms of our product team</p>

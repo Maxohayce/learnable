@@ -2,6 +2,7 @@ import React from "react";
 
 
 import Card from "../Card/Card";
+import "../devcards/Devcards.css";
 
 
 const descards = [
@@ -17,7 +18,7 @@ const descards = [
     },
     {
         title: "apply design thinking",
-        textColor: "whiteText",
+        textColor: "blueText",
         backColor: "yellowBg",
     },
     {
@@ -28,7 +29,7 @@ const descards = [
     {
         title: "Copy write for projects",
         textColor: "whiteText",
-        backColor: "orangeBg",
+        backColor: "redBg",
     },
     {
         title: "Brand products",
@@ -42,7 +43,7 @@ const descards = [
 
 const DesCards = () => {
     return(
-        <div>
+        <div className="cards">
             {descards.map((item) => {
                 return(
                     <Card 

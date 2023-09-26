@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-between;
     margin: 1rem 2rem;
-    /* background-color: chocolate; */
 }
 
 a {
@@ -35,18 +34,18 @@ a {
     justify-content: space-evenly;
 }
 
-.Devstudio {
+.DevStudio {
     display: flex;
     width: 40%;
     justify-content: space-between;
 }
 
-.Devstudio img {
+.DevStudio img {
     height: auto;
     width: max-content;
 }
 
-.Devstudio > span {
+.DevStudio > span {
     height: auto;
     display: flex;
     margin:0rem 2rem;
@@ -55,7 +54,7 @@ a {
 
 }
 
-.Devstudio p{
+.DevStudio p{
     margin-top: 11%;
 }
 
@@ -80,5 +79,47 @@ a {
     height: 30px;
     width: 22px;
     color: #273043;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .Footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Footer-links {
+        width: 100%;
+        align-items: center;
+    }
+
+    .Touch {
+        width: 100%;
+        align-items: center;
+    }
+
+    .DevStudio {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .DevStudio span {
+        height: 10rem;
+        margin-bottom: 1.8rem;
+    }
+    .Footer-bottom span {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .Footer-bottom {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
 }
 

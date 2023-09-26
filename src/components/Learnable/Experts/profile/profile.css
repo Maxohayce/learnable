@@ -1,0 +1,11 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+.profile h6 {
+    font-size: 1.25rem;
+    color: #273043;
+}

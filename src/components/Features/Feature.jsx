@@ -2,9 +2,9 @@ import React from "react";
 import "./Feature.css";
 
 
-const Features = ({src}) => {
+const Features = ({src, ashBg}) => {
     return(
-        <div className="Feature">
+        <div className={`Feature ${ashBg}`}>
             <img  src={src} alt="Feature"/>
             <a href="www.inspiration.com" >Inspiration</a>
             <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>

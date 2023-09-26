@@ -12,3 +12,4 @@ export { default as DesCards } from "./Learnable/descards/Cards";
 export { default as Linkcontent } from "./Learnable/linkcontent";
 export { default as Onecontent } from "./Learnable/onecontent";
 export { default as Twocontent } from "./Learnable/twocontent";
+export { default as Brands } from "./Brands/Brands";
